@@ -1,0 +1,87 @@
+*{padding: 0; margin: 0; box-sizing: border-box;}
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Arial';
+    padding: 0px 15px;
+    background-color: rgba(245, 245, 245, 0.842);
+}
+
+
+.box_login{
+    width: 500px;
+    height: 500px;
+    background: rgb(0, 132, 255);
+    border: 0;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.box_login .capa{
+    height: 230px;
+    background: url(../img/capa.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    
+}
+
+h1{
+
+    font-size: 24px;
+    color: #fff;
+    text-align: left;
+    margin: 15px 0px 20px 15px;
+    font-weight: 500;
+
+}
+
+form input{
+margin: 0px 20px;
+ width: calc(100% - 40px);
+ padding: 10px 15px;
+ border-radius: 10px;
+ margin-bottom: 20px;
+ border: 0;
+ text-align: center;
+ color: rgb(7, 110, 206);
+}
+
+
+form .btn-login{
+    margin: 0px 20px;
+    width: calc(100% - 40px);
+    background: #04e4ec;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    border: 0;
+}
+
+
+.msg_error{
+    color: yellow;
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+
+}
+
+#icone{
+    font-size: 18px; color: yellow; padding-right: 5px;
+}
+
+
+@media (min-width:480px){
+    .box_login .capa{    
+        height: 230px;  
+        background: url(../img/capa.jpg);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+       
+        
+    }
+
+}
